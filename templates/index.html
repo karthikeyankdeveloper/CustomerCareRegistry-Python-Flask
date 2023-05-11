@@ -1,0 +1,256 @@
+{% extends 'base.html' %}
+
+<!-- Head -->
+{% block head %}
+<!-- Page style -->
+<link rel="stylesheet" href="static/css/index.css">
+
+<style>
+    #dis_this {
+        display: none;
+    }
+
+    header {
+        position: relative;
+    }
+</style>
+
+
+{% endblock %}
+
+<!-- Body -->
+{% block body %}
+
+
+
+<div id="dis_this">
+    logintype:<input type="text" id="logintype" value="{{ logintype }}">
+    loginemail:<input type="text" id="loginemail" value="{{ loginemail }}">
+</div>
+
+<!-- BODY CONTENT 1 -->
+
+<div class="body1">
+    <div class="content1">
+        <div class="ctext1">
+            <p>CUSTOMER CARE registry</p>
+            <p id="ctext2">We are here for you and we provide you excellant solution for your queries. We have multiple
+                channels like knowledge base, email, live agent interaction. Using these channels, your query will be
+                solved instantly. We are also available on mobile application. </p>
+            <li id="signup_anchor">
+                <a href="/signupuser">GET STARTED</a>
+            </li>
+        </div>
+        <div class="cimage1">
+            <img style="width: 100%; height: 80%;margin-top: 5%;" src="static/raw/body1.png"
+                alt="customer care registry">
+        </div>
+    </div>
+</div>
+
+<!-- BODY CONTENT 2 -->
+
+<div class="body2">
+    <div class="content2">
+        <div class="cimage2">
+            <img style="width: 85%; height: 60%;margin-top: 15%; margin-left: 10%; border-radius: 15px;"
+                src="static/raw/body1bg.png" alt="customer care registry">
+        </div>
+        <div class="ctext2">
+            <p>Assigned Automatically</p>
+            <p id="cp2">Agent role is automatically assigned from customers query. This saves time in resolving all the
+                tickets.</p>
+        </div>
+    </div>
+</div>
+
+<!-- BODY CONTENT 3 -->
+
+<div class="body3">
+    <div class="content3">
+        <div class="ctext3">
+            <p>ACCURATE REPORTS</p>
+            <p id="cp3">Customer tickets are tracked and analyzed to identify the open, pending, solved, and closed
+                tickets. This will enhance the overall customer experience. </p>
+            <p>Stuatus of the ticket</p>
+            <p id="cp3">Current percentage of the ticket details are shown in the report. That is, The percentages of
+                open, pending, solved, and closed tickets</p>
+        </div>
+        <div class="cimage3">
+            <img src="static/raw/Admin-4.png" alt="customer care registry">
+        </div>
+    </div>
+</div>
+
+<!-- BODY CONTENT 4 -->
+
+<div class="body4">
+    <h2>Customer Care Registry Channels</h2>
+    <div class="bc1"
+        style="background-image: linear-gradient(to right top, #1e13ab, #0050d2, #007dea, #00a5f7, #00ccfe); margin-bottom: 2%;">
+        <div class="cimage4">
+            <img src="static/raw/body4img1.png" alt="customer care registry">
+        </div>
+        <div class="ctext4">
+            <p>Email Channel</p>
+            <p id="cp4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eligendi eius, optio ex velit
+                sunt blanditiis enim, consectetur tempora iure vero, molestias natus earum animi dolorem in minima
+                facere porro.</p>
+        </div>
+    </div>
+    <div class="bc1"
+        style="background-image: linear-gradient(to right top, #ab1313, #af4900, #ae6e00, #a98f15, #a0ad3e); margin-bottom: 2%;">
+        <div class="ctext4">
+            <p>Live Interaction</p>
+            <p id="cp4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, aperiam repellendus. Nostrum,
+                debitis minus eum maxime illum voluptas iste a cumque? Illum perferendis distinctio est nihil voluptatem
+                unde dolore dolorem!</p>
+        </div>
+        <div class="cimage4">
+            <img src="static/raw/body4img2.png" alt="customer care registry">
+        </div>
+    </div>
+    <div class="bc1"
+        style="background-image: linear-gradient(to right top, #ff0000, #f90f51, #e0407e, #ba5f97, #957299, #8c6f9c, #806d9f, #736ba2, #695cbc, #5c4ad4, #4d33ea, #3a00ff);margin-bottom: 2%;">
+        <div class="cimage4">
+            <img src="static/raw/body4img3 (1).png" alt="customer care registry">
+        </div>
+        <div class="ctext4">
+            <p>Chat Bot</p>
+            <p id="cp4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis aut commodi recusandae
+                repudiandae eos laborum, fuga cumque nihil nulla aperiam tempore magnam nobis dolores fugit. Nemo vero
+                laudantium blanditiis sint!</p>
+        </div>
+    </div>
+    <div class="bc1"
+        style="background-image: linear-gradient(to right top, #fe3737, #fa482e, #f65625, #f1621b, #eb6d12);">
+        <div class="ctext4">
+            <p>Knowledge Base</p>
+            <p id="cp4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis aut commodi recusandae
+                repudiandae eos laborum, fuga cumque nihil nulla aperiam tempore magnam nobis dolores fugit. Nemo vero
+                laudantium blanditiis sint!</p>
+        </div>
+        <div class="cimage4">
+            <img src="static/raw/Knowledge Base.png" alt="customer care registry">
+        </div>
+    </div>
+</div>
+
+<!--  FOOTER-->
+
+<div class="footer">
+    <footer>
+        <div class="container-3">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Omni Channels</h4>
+                    <ul>
+                        <li><a>knowledge base</a></li>
+                        <li><a>email</a></li>
+                        <li><a>chatbot</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Pricing</h4>
+                    <ul>
+                        <li><a href="/commingsoon">product pricing</a></li>
+                        <li><a href="/commingsoon">yearly pricing</a></li>
+                        <li><a href="/commingsoon">monthly pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Solution</h4>
+                    <ul>
+                        <li><a href="/commingsoon">Automated Routing</a></li>
+                        <li><a href="/commingsoon">24/7 Working</a></li>
+                        <li><a href="/commingsoon">Quick response</a></li>
+                        <li><a href="/commingsoon">Quality content</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/commingsoon">about us</a></li>
+                        <li><a href="/commingsoon">contact us</a></li>
+                        <li><a href="/commingsoon">terms and condition</a></li>
+                        <li><a href="/commingsoon">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>join us</h4>
+                    <ul>
+                        <li><a href="/signupuser">sign up</a></li>
+                        <li><a href="/commingsoon">free trial</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <ul>
+                            <a href="/commingsoon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="/commingsoon"><i class="fab fa-twitter"></i></a>
+                            <a href="/commingsoon"><i class="fab fa-instagram"></i></a>
+                            <a href="/commingsoon"><i class="fab fa-linkedin-in"></i></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+<script>
+    var logintype = document.getElementById('logintype').value;
+    var loginemail = document.getElementById('loginemail').value;
+
+
+    var dash_user_anchor = document.getElementById('dash_user_anchor');
+    var dash_admin_anchor = document.getElementById('dash_admin_anchor');
+    var dash_agent_anchor = document.getElementById('dash_agent_anchor');
+    var login_anchor = document.getElementById('login_anchor');
+    var signup_anchor = document.getElementById('signup_anchor');
+    var profile_user_anchor = document.getElementById('profile_user_anchor');
+    var profile_admin_anchor = document.getElementById('profile_admin_anchor');
+    var profile_agent_anchor = document.getElementById('profile_agent_anchor');
+    var logout_anchor = document.getElementById('logout_anchor');
+
+    if (logintype == "user") {
+        dash_admin_anchor.style.display = "none";
+        dash_agent_anchor.style.display = "none";
+        login_anchor.style.display = "none";
+        signup_anchor.style.display = "none";
+        profile_admin_anchor.style.display = "none";
+        profile_agent_anchor.style.display = "none";
+    } else if (logintype == "admin") {
+        dash_user_anchor.style.display = "none";
+        dash_agent_anchor.style.display = "none";
+        login_anchor.style.display = "none";
+        signup_anchor.style.display = "none";
+        profile_user_anchor.style.display = "none";
+        profile_agent_anchor.style.display = "none";
+    } else if (logintype == "agent") {
+        dash_user_anchor.style.display = "none";
+        dash_admin_anchor.style.display = "none";
+        login_anchor.style.display = "none";
+        signup_anchor.style.display = "none";
+        profile_admin_anchor.style.display = "none";
+        profile_user_anchor.style.display = "none";
+    }
+    else {
+        dash_user_anchor.style.display = "none";
+        dash_admin_anchor.style.display = "none";
+        dash_agent_anchor.style.display = "none";
+        profile_user_anchor.style.display = "none";
+        profile_admin_anchor.style.display = "none";
+        profile_agent_anchor.style.display = "none";
+        logout_anchor.style.display = "none";
+    }
+
+
+</script>
+
+
+
+{% endblock %}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+
+#signup {
+    /* border: 2px solid black; */
+    color: rgb(2, 2, 2);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+    padding-right: 10%;
+    /* height: 100vh; */
+}
+
+
+
+.left {
+    /* border: 2px solid green; */
+    /* padding: 0px 15px; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.left .limage {
+    width: 60%;
+    height: 100%;
+}
+
+.left .limage img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+
+.right {
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.rightdiv {
+    width: 60%;
+    /* border: 2px solid rgba(0, 0, 0, 0.149); */
+    /* padding: 0px 25%; */
+    margin-right: 25px;
+    border-radius: 7px;
+}
+
+.rightdiv h1 {
+    font-size: 22px;
+}
+
+
+.inner{
+    /* border: 2px solid red; */
+    /* border: 1px solid rgb(160, 157, 157); */
+    height: 380px;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+}
+
+form input {
+    margin-top: 20px;
+    width: 85%;
+    padding: 13px 3px;
+    font-size: 1rem;
+    font-weight: 400;
+    border: 2px solid green;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.check_box {
+    
+    /* border: 2px solid red; */
+    margin: 0px 15px;
+    align-items: center;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 15px;
+    /* justify-content: center; */
+}
+
+.check_box input{
+    margin: 0px;
+}
+
+/* .check_box a {
+    text-decoration: none;
+    margin-left: 25px;
+    color: red;
+} */
+
+/* .check_box a:hover {
+    cursor: pointer;
+    color: rgba(255, 84, 84, 0.84);
+} */
+
+#signup_button {
+    margin-top: 10px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+#signup_button:hover {
+    background-color: rgb(61, 139, 61);
+    transition: all 0.1s ease-in;
+}
+
+.dont {
+    /* border: 2px solid red; */
+    padding: 1px 0px;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 5px;
+    /* background-color: rgba(128, 128, 128, 0.112); */
+}
+
+.dont a {
+    color: rgba(0, 0, 255, 0.571);
+}
