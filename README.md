@@ -3,7 +3,7 @@
 
   
 
-[![License]()](https://github.com/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask/blob/main/LICENSE) ![Languages]() ![CodeSize]() ![Watchers]() ![Languages]() ![RepoSize]() ![LastCommit]()
+[![License](https://img.shields.io/github/license/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask)](https://github.com/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask/blob/main/LICENSE) ![Languages](https://img.shields.io/github/languages/count/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask) ![CodeSize](https://img.shields.io/github/languages/code-size/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask) ![Watchers](https://img.shields.io/github/watchers/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask?style=social) ![Languages](https://img.shields.io/github/languages/top/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask) ![RepoSize](https://img.shields.io/github/repo-size/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask) ![LastCommit](https://img.shields.io/github/last-commit/karthikeyankdeveloper/CustomerCareRegistry-Python-Flask)
 
   
 
