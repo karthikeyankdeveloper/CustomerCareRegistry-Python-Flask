@@ -10,4 +10,7 @@ pytesseract==0.3.10
 pywebview==4.0.2
 scikit_learn==1.2.2
 sendgrid==6.10.0
+flask_session==0.5.0
+flask-session==0.5.0
+Flask-Session==0.5.0
 Flask-session==0.5.0
