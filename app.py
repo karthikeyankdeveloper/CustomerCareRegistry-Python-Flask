@@ -1515,7 +1515,7 @@ def newpass():
 
 #------------------------ For Development Env ------------------------
 # Fro debuging purpose
-app.run(debug=True)
+app.run(host='0.0.0.0',port=5000)
 #------------------------ End of Development Env ------------------------
 
 #------------------------ Creating EXE Window------------------------
